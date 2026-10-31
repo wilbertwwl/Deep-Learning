@@ -10,12 +10,5 @@ Tugas Take-Home Deep Learning (D6421) Sesi 07. Dataset: Fashion-MNIST (split 80/
 - `figures.py` : Figur 1-5
 - `Deeplearning.ipynb` : notebook yang menjalankan seluruh pipeline
 
-## Cara menjalankan
-1. Buka `Deeplearning.ipynb` di Google Colab, pilih Runtime > T4 GPU.
-2. `pip install -r requirements.txt` (sudah ada di sel pertama notebook).
-3. Jalankan seluruh sel dari atas ke bawah. Sel training otomatis melewati model yang
-   checkpoint-nya sudah ada di `checkpoints/`.
-4. Hasil tabel ada di `results/`, figur di `figures/`.
-
 Estimasi waktu di GPU T4: AE/VAE ~2.5 menit, GAN ~3 menit, DCGAN ~4 menit, DDPM ~12 menit
 (training), FID ~20 menit (DDPM paling lama).
